@@ -30,6 +30,9 @@
 		"url": "https://github.com/jsdsl/queue/issues"
 	},
 	"homepage": "https://github.com/jsdsl/queue#readme",
+	"dependencies": {
+		"@jsdsl/doubly-linked-list": "^0.3.0"
+	},
 	"devDependencies": {
 		"typescript": "latest",
 		"@types/jest": "latest",
