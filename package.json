@@ -1,30 +1,22 @@
 {
 	"name": "@jsdsl/queue",
-	"version": "0.2.0",
-	"description": "A queue/FIFO data structure.",
+	"version": "1.0.0",
+	"description": "A queue (FIFO) implementation written in TypeScript.",
 	"publishConfig": {
 		"access": "public"
 	},
 	"main": "js/main",
 	"types": ".d.ts/main",
-	"files": [
-		".d.ts/**",
-		"js/**",
-		"ts/**",
-		"license.md",
-		"package.json",
-		"readme.md"
-	],
 	"scripts": {
-		"build": "gulp && jest",
-		"test": "jest"
+		"build": "gulp rebuild",
+		"test": "gulp rebuild && jest"
 	},
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/jsdsl/queue.git"
 	},
 	"keywords": [],
-	"author": "Trevor Sears <trevorsears.main@gmail.com> (http://trevorsears.io/)",
+	"author": "Trevor Sears <trevor@trevorsears.com> (https://trevorsears.com/)",
 	"license": "GPL-3.0-or-later",
 	"bugs": {
 		"url": "https://github.com/jsdsl/queue/issues"
@@ -35,6 +27,7 @@
 	},
 	"devDependencies": {
 		"typescript": "latest",
+		"tslint": "latest",
 		"@types/jest": "latest",
 		"del": "latest",
 		"gulp": "latest",
